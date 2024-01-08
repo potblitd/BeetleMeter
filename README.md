@@ -41,7 +41,7 @@ void setup(){
     humy = sht.getHumidity();
   }
 
-  // get temp and humy status
+  # get temp and humy status
   if(temp > max_temp){
     temp_led = 2;
   } else if(temp < min_temp){
@@ -57,7 +57,7 @@ void setup(){
     humy_led = 4;
   }
 
-  // turn on LEDs
+   # turn on LEDs
   for (int i = 0; i < ton/2; i ++) {
     setLED(temp_led);
     delay(1);
@@ -66,7 +66,7 @@ void setup(){
   }
 }
   
-  // sleep without wakeup
+  # sleep without wakeup
   sleepnowake();
 ```
 
@@ -74,10 +74,10 @@ V2.0 is basically the same code but without the need for a sleep mode since the 
 
 ```ruby
 void setup(){
-  // get measurements
+  # get measurements
   sht4x.measureHighPrecision(temp, humy);
 
-  // get temp and humy status LEDs
+  # get temp and humy status LEDs
   if(temp > max_temp){
     temp_led = 2;
   } else if(temp < min_temp){
@@ -94,7 +94,7 @@ void setup(){
   }
 }
 void loop(){
-  // turn on LEDs
+  # turn on LEDs
   setLED(temp_led);
   delay(1);
   setLED(humy_led);
