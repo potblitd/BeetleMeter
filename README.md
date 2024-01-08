@@ -20,9 +20,9 @@ Both versions board outline is defined by the dimensions of their battery holder
 <p align="center">
   <img src="images/v1v2_front.png" height="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/v1_assembled.png" height="200" /> <br/><br/>
+  <img src="images/v1_assembled.png" height="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/v2_assembled.png" height="200" />
+  <img src="images/v2_assembled.png" height="100" />
 </p>
 
 ## Code
