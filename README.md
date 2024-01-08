@@ -34,11 +34,70 @@ Both versions board outline is defined by the dimensions of their battery holder
 V1.0 stays in sleep mode most of the time and only wakes up throug the button press after which the sensor is powered, measurements are read and the LEDs are turned ON for 1 second according to the suitable temperature and humidty range.
 
 ```ruby
-code V1.0
+void setup(){
+  // get measurements
+  if (sht.readSample()) {
+    temp = sht.getTemperature();
+    humy = sht.getHumidity();
+  }
+
+  // get temp and humy status
+  if(temp > max_temp){
+    temp_led = 2;
+  } else if(temp < min_temp){
+    temp_led = 5;
+  } else {
+    temp_led = 3;
+  }
+  if(humy > max_humy){
+    humy_led = 1;
+  } else if(humy < min_humy){
+    humy_led = 6;
+  } else {
+    humy_led = 4;
+  }
+
+  // turn on LEDs
+  for (int i = 0; i < ton/2; i ++) {
+    setLED(temp_led);
+    delay(1);
+    setLED(humy_led);
+    delay(1);
+  }
+}
+  
+  // sleep without wakeup
+  sleepnowake();
 ```
 
 V2.0 is basically the same code but without the need for a sleep mode since the system is not powered when the button is not pressed. Consequently, the LEDs stay turned ON until the button is released again.
 
 ```ruby
-code V2.0
+void setup(){
+  // get measurements
+  sht4x.measureHighPrecision(temp, humy);
+
+  // get temp and humy status LEDs
+  if(temp > max_temp){
+    temp_led = 2;
+  } else if(temp < min_temp){
+    temp_led = 5;
+  } else {
+    temp_led = 3;
+  }
+  if(humy > max_humy){
+    humy_led = 1;
+  } else if(humy < min_humy){
+    humy_led = 6;
+  } else {
+    humy_led = 4;
+  }
+}
+void loop(){
+  // turn on LEDs
+  setLED(temp_led);
+  delay(1);
+  setLED(humy_led);
+  delay(1);
+}
 ```
