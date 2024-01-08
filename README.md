@@ -26,7 +26,7 @@ Both versions board outline is defined by the dimensions of their battery holder
 </p>
 
 ## Code
-V1.0 stays in sleep mode most of the time and only wakes up throug the button press after which the sensor is powered, measurements are read and the LEDs are turned ON for 1 second according to the suitable temperature and humidty range.
+[V1.0](code/BM-V1_measure-led-sleep) stays in sleep mode most of the time and only wakes up throug the button press after which the sensor is powered, measurements are read and the LEDs are turned ON for 1 second according to the suitable temperature and humidty range.
 
 ```ruby
 void setup(){
