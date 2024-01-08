@@ -17,12 +17,12 @@ The SHT40 sensor is used to measure temperature (0.2 °C accuracy) and humidity 
 ## PCB design
 Both versions board outline is defined by the dimensions of their battery holder, which is mounted on the bottom side of the PCB. The top side accomodates the remaining components in SMD format. The push button size was also chosen according to the board space left.
 
-<p align="center">
+<p align="middle">
   <img src="images/v1v2_front.png" height="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/v1_assembled.png" height="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/v2_assembled.png" height="100" />
+  <img src="images/v2_assembled.png" height="120" />
 </p>
 
 ## Code
