@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/cover.JPG" height="200" />
+  <img src="images/cover.gif" height="200" />
 </p>
 
 # BeetleMeter
