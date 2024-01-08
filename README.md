@@ -35,7 +35,7 @@ V1.0 stays in sleep mode most of the time and only wakes up throug the button pr
 
 ```ruby
 void setup(){
-  //get measurements
+  # get measurements
   if (sht.readSample()) {
     temp = sht.getTemperature();
     humy = sht.getHumidity();
