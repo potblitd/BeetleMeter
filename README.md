@@ -9,9 +9,9 @@ Raising a beetle is fun and wholesome but keeping an eye on the environment insi
 The SHT40 sensor is used to measure temperature (0.2 °C accuracy) and humidity (1.8 %RH accuracy), and communicate those values through I2C. The result can then be displayed through six LEDs i.e. temperature too high, too low or good, and humidity too high, too low, or good. In the first version, the system is controlled with the ATtiny13A and powered through a CR2032 coin cell (210mAh), while the second version uses the smaller ATtiny402 and is powered through two in series connected LR44 coin cells (150mAh). Due to the limited amount of GPIO pins of these two microcontrollers, the LEDs are switched through Charlieplexing. V1.0 incorporates the button signal on one of the remaining GPIOs and in V2.0 the button is used to power the system.
 
 <p align="center">
-  <img src="images/v1_circuit.png" height="150" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/v1_circuit.png" height="150" />
+  <img src="images/v1_circuit.png" height="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/v1_circuit.png" height="200" />
 </p>
 
 ## PCB design
