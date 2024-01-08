@@ -11,7 +11,7 @@ The SHT40 sensor is used to measure temperature (0.2 °C accuracy) and humidity 
 <p align="center">
   <img src="images/v1_circuit.png" height="250" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/v1_circuit.png" height="250" />
+  <img src="images/v2_circuit.png" height="250" />
 </p>
 
 ## PCB design
