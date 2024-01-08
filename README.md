@@ -24,9 +24,7 @@ Both versions board outline is defined by the dimensions of their battery holder
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img align="middle" src="images/v2_assembled.png" height="120" /> <br/><br/>
 
-  <img align="middle" src="images/v1_side.JPG" height="200" /> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img align="middle" src="images/v2_side.JPG" height="120" />
+  <img align="middle" src="images/v1v2_diag.JPG" height="200" /> 
 </p>
 
 ## Code
