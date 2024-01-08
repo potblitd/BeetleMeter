@@ -99,4 +99,4 @@ void loop(){
 }
 ```
 ## Cost
-
+Total price for the components and batteries for V2 rounds up to 14 RMB (1.97 USD).
