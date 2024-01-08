@@ -65,7 +65,7 @@ void setup(){
   sleepnowake();
 ```
 
-[V2.0](code/BM-V2_measure-led/BM-V2_measure-led.ino) is basically the same code but without the need for a sleep mode since the system is not powered when the button is not pressed. Consequently, the LEDs stay turned ON until the button is released again.
+[V2.0](code/BM-V2_measure-led/BM-V2_measure-led.ino) has basically the same code but without the need for a sleep mode since the system is not powered when the button is not pressed. Consequently, the LEDs stay turned ON until the button is released again.
 
 ```ruby
 void setup(){
