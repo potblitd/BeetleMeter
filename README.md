@@ -26,7 +26,7 @@ Both versions board outline is defined by the dimensions of their battery holder
 </p>
 
 ## Code
-[V1.0](code/BM-V1_measure-led-sleep) stays in sleep mode most of the time and only wakes up throug the button press after which the sensor is powered, measurements are read and the LEDs are turned ON for 1 second according to the suitable temperature and humidty range.
+[V1.0](code/BM-V1_measure-led-sleep/BM-V1_measure-led-sleep.ino) stays in sleep mode most of the time and only wakes up throug the button press after which the sensor is powered, measurements are read and the LEDs are turned ON for 1 second according to the suitable temperature and humidty range.
 
 ```ruby
 void setup(){
@@ -65,7 +65,7 @@ void setup(){
   sleepnowake();
 ```
 
-V2.0 is basically the same code but without the need for a sleep mode since the system is not powered when the button is not pressed. Consequently, the LEDs stay turned ON until the button is released again.
+[V2.0](code/BM-V2_measure-led/BM-V2_measure-led.ino) is basically the same code but without the need for a sleep mode since the system is not powered when the button is not pressed. Consequently, the LEDs stay turned ON until the button is released again.
 
 ```ruby
 void setup(){
